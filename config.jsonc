@@ -1,0 +1,17 @@
+{
+  "logo": {
+    "type": "file",
+    "source": "/home/Thabet/Pictures/logo.png", // ⬅️ replace with your image path
+    "width": 30
+  },
+  "modules": [
+    "title",
+    "os",
+    "kernel",
+    "cpu",
+    "gpu",
+    "memory",
+    "separator"
+  ]
+}
+
