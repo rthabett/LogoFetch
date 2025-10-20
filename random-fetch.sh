@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LOGO_DIR="$HOME/Pictures/term-logos"
-RANDOM_LOGO=$(find "$LOGO_DIR" -type f -iname "Dropped Image*.png" | shuf -n 1)
+RANDOM_LOGO=$(find "$LOGO_DIR" -type f -iname "*.png" | shuf -n 1)
 
 WINDOWS_COUNT=$(pgrep -cx kitty)
 
